@@ -9,25 +9,25 @@
 
   <div class="col-lg-2 col-lg-offset-1">
 
-    <a href = "/rock"> <h3> Play Rock </h3> <i class="fa fa-hand-rock-o" aria-hidden="true"></i></a>
+    <a href = "/rock"> <i class="fa fa-5x fa-hand-rock-o" aria-hidden="true"></i></a>
   </div>
   <div class="col-lg-2 col-lg-offset-1">
-    <a href = "/paper"> <h3> Play Paper </h3> </a>
+    <a href = "/paper"> <i class="fa fa-5x fa-hand-paper-o" aria-hidden="true"></i> </a>
   </div>
   <div class="col-lg-2 col-lg-offset-1">
-    <a href = "/scissors"> <h3> Play Scissors </h3> </a>
+    <a href = "/scissors"> <i class="fa fa-5x fa-hand-scissors-o" aria-hidden="true"></i> </a>
   </div>
 </div>
 
 <div class = "container  text-center">
-<h1> You played rock! </h1>
+<h1> You played: </h1>
 
-
+<i class="fa fa-5x fa-hand-rock-o" aria-hidden="true"></i>
 
 <h1>
-  The computer played
-  <%= computer_move = @computer_move %>
+  The computer played:
 </h1>
+<i class="fa fa-5x fa-hand-<%=@computer_move%>-o" aria-hidden="true"></i>
 
 
 <h1>
